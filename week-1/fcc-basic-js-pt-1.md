@@ -181,7 +181,130 @@ lastNameLength = lastName.length;
 ```js
 firstLetterOfLastName = lastName[0];
 ```
-## 31.
+## 32.Understand String Immutability
+
+```js
+var myStr = "Jello World";
+myStr= "Hello World";
+```
+## 33.Use Bracket Notation to Find the Nth Character in a String
+
+```js
+var thirdLetterOfLastName = lastName[2];
+```
+## 34.Use Bracket Notation to Find the Last Character in a String
+
+```js
+var lastLetterOfLastName = lastName[lastName.length -1];
+```
+## 35.Use Bracket Notation to Find the Nth-to-Last Character in a String
+
+```js
+var secondToLastLetterOfLastName = lastName[lastName.length -2];
+```
+## 36.Word Blanks
+
+```js
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+var result = "My "+ myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "." ;
+return result;
+}
+wordBlanks("dog", "big", "ran", "quickly");
+```
+## 37.Store Multiple Values in one Variable using JavaScript Arrays
+
+```js
+var myArray = ["one",2];
+```
+## 38.Nest one Array within Another Array
+
+```js
+var myArray = [["ebru",32],["erdem",36]];
+```
+## 39.Access Array Data with Indexes
+
+```js
+var myArray = [50,60,70];
+var myData =myArray[0];
+```
+## 40. Modify Array Data With Indexes
+
+```js
+var myArray = [18,64,99];
+myArray[0]=45;
+```
+## 41.Access Multi-Dimensional Arrays With Indexes
+
+```js
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+var myData = myArray[2][1]; // equals=8
+```
+## 42. Manipulate Arrays With push()
+
+```js
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3]);
+```
+## 43.Manipulate Arrays With pop()
+>You can pop off the last array, and store it in a variable.
+```js
+var myArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray=myArray.pop();
+```
+## 44.Manipulate Arrays With shift()
+>You can remove the first in the array
+```js
+var myArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray= myArray.shift();
+```
+## 45.Manipulate Arrays With unshift()
+
+```js
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul",35]);
+```
+## 46.Shopping List
+
+```js
+var myList = [["egg",6],["milk",2],["chocolat",5],["bread",2],["tomato",15]];
+
+```
+## 47.Write Reusable JavaScript with Functions
+
+```js
+function reusableFunction(){
+    console.log( "Hi World");
+}
+reusableFunction();
+```
+## 48. Passing Values to Functions with Arguments
+
+```js
+function  functionWithArgs(a,b){
+console.log(a+b); 
+}
+functionWithArgs(20,15);
+```
+## 49.Global Scope and Functions
+
+```js
+var myGlobal=10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal=5
+}
+```
+## 50. Local Scope and Functions
+
+```js
+function myLocalScope() {
+var myVar='use strict';
+{
+myLocalScope();
+```
+## 50.
 
 ```js
 ```
