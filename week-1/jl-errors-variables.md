@@ -30,7 +30,7 @@ classification:
 
 the fix:
 ```js
-function getNine {
+function getNine() {
   let x = 6;
   let y = 3;
   return x + y;
@@ -61,7 +61,7 @@ classification:
 the fix:
 ```js
 let array = [];
-array.length()
+array.length;
 ```
 your notes: :+1:
 
