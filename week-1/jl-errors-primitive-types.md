@@ -30,7 +30,7 @@ the fix:
 let a = 'this is \
 two lines';
 ```
-your notes:
+your notes::thumbsup:
 
 [TOP](#primitive-type-errors)
 
@@ -54,7 +54,7 @@ the fix:
 ```js
 let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
 ```
-your notes:
+your notes::thumbsup:
 
 [TOP](#errors)
 
@@ -77,7 +77,7 @@ the fix:
 ```js
 let nested_messages = 'remind yourself '+'i can do this!'+' at least once a day';
 ```
-your notes:
+your notes::thumbsup:
 
 [TOP](#primitive-type-errors)
 
