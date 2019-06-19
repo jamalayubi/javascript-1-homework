@@ -19,7 +19,7 @@ two lines';
 ```
 error message:
 ```
-Invalid or unexpected token
+SyntaxError: Unexpected token ILLEGAL
 ```
 classification:
 * creation phase
@@ -44,7 +44,7 @@ let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
 ```
 error message:
 ```
-Unexpected token ILLEGAL
+SyntaxError: Unexpected token ILLEGAL
 ```
 classification:
 * creation phase
