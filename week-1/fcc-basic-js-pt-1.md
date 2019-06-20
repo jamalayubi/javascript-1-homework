@@ -26,7 +26,7 @@ b=a;
 ```js
 var a = 9;
 ```
-##5.Understanding Uninitialized Variables
+## 5.Understanding Uninitialized Variables
 
 ```js
 var a = 5;
@@ -181,28 +181,28 @@ lastNameLength = lastName.length;
 ```js
 firstLetterOfLastName = lastName[0];
 ```
-## 32.Understand String Immutability
+## 31.Understand String Immutability
 
 ```js
 var myStr = "Jello World";
 myStr= "Hello World";
 ```
-## 33.Use Bracket Notation to Find the Nth Character in a String
+## 32.Use Bracket Notation to Find the Nth Character in a String
 
 ```js
 var thirdLetterOfLastName = lastName[2];
 ```
-## 34.Use Bracket Notation to Find the Last Character in a String
+## 33.Use Bracket Notation to Find the Last Character in a String
 
 ```js
 var lastLetterOfLastName = lastName[lastName.length -1];
 ```
-## 35.Use Bracket Notation to Find the Nth-to-Last Character in a String
+## 34.Use Bracket Notation to Find the Nth-to-Last Character in a String
 
 ```js
 var secondToLastLetterOfLastName = lastName[lastName.length -2];
 ```
-## 36.Word Blanks
+## 35.Word Blanks
 
 ```js
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
@@ -211,66 +211,66 @@ return result;
 }
 wordBlanks("dog", "big", "ran", "quickly");
 ```
-## 37.Store Multiple Values in one Variable using JavaScript Arrays
+## 36.Store Multiple Values in one Variable using JavaScript Arrays
 
 ```js
 var myArray = ["one",2];
 ```
-## 38.Nest one Array within Another Array
+## 37.Nest one Array within Another Array
 
 ```js
 var myArray = [["ebru",32],["erdem",36]];
 ```
-## 39.Access Array Data with Indexes
+## 38.Access Array Data with Indexes
 
 ```js
 var myArray = [50,60,70];
 var myData =myArray[0];
 ```
-## 40. Modify Array Data With Indexes
+## 39. Modify Array Data With Indexes
 
 ```js
 var myArray = [18,64,99];
 myArray[0]=45;
 ```
-## 41.Access Multi-Dimensional Arrays With Indexes
+## 40.Access Multi-Dimensional Arrays With Indexes
 
 ```js
 var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 var myData = myArray[2][1]; // equals=8
 ```
-## 42. Manipulate Arrays With push()
+## 41. Manipulate Arrays With push()
 
 ```js
 var myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog", 3]);
 ```
-## 43.Manipulate Arrays With pop()
+## 42.Manipulate Arrays With pop()
 >You can pop off the last array, and store it in a variable.
 ```js
 var myArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray=myArray.pop();
 ```
-## 44.Manipulate Arrays With shift()
+## 43.Manipulate Arrays With shift()
 >You can remove the first in the array
 ```js
 var myArray = [["John", 23], ["dog", 3]];
 var removedFromMyArray= myArray.shift();
 ```
-## 45.Manipulate Arrays With unshift()
+## 44.Manipulate Arrays With unshift()
 
 ```js
 var myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul",35]);
 ```
-## 46.Shopping List
+## 45.Shopping List
 
 ```js
 var myList = [["egg",6],["milk",2],["chocolat",5],["bread",2],["tomato",15]];
 
 ```
-## 47.Write Reusable JavaScript with Functions
+## 46.Write Reusable JavaScript with Functions
 
 ```js
 function reusableFunction(){
@@ -278,7 +278,7 @@ function reusableFunction(){
 }
 reusableFunction();
 ```
-## 48. Passing Values to Functions with Arguments
+## 47. Passing Values to Functions with Arguments
 
 ```js
 function  functionWithArgs(a,b){
@@ -286,7 +286,7 @@ console.log(a+b);
 }
 functionWithArgs(20,15);
 ```
-## 49.Global Scope and Functions
+## 48.Global Scope and Functions
 
 ```js
 var myGlobal=10;
@@ -296,7 +296,7 @@ function fun1() {
   oopsGlobal=5
 }
 ```
-## 50. Local Scope and Functions
+## 49. Local Scope and Functions
 
 ```js
 function myLocalScope() {
@@ -304,7 +304,7 @@ var myVar='use strict';
 {
 myLocalScope();
 ```
-## 51.Global vs. Local Scope in Functions
+## 50.Global vs. Local Scope in Functions
 
 ```js
 var outerWear = "T-Shirt";
@@ -315,7 +315,7 @@ return outerWear;
 }
 myOutfit();   //The function myFun will return "sweater"
 ```
-## 52.Return a Value from a Function with Return
+## 51.Return a Value from a Function with Return
 
 ```js
 function timesFive(num){
@@ -325,14 +325,14 @@ console.log(timesFive(5));
 console.log(timesFive(2));
 console.log(timesFive(0));
 ```
-## 53.Understanding Undefined Value returned from a Function
+## 52.Understanding Undefined Value returned from a Function
 
 ```js
 function addFive(){
   sum = sum + 5;
 }
 ```
-## 54.Assignment with a Returned Value
+## 53.Assignment with a Returned Value
 
 ```js
 var processed = 0;
@@ -341,7 +341,7 @@ function processArg(num) {
 }
 processed = processArg(7);
 ```
-## 55.Stand in Line
+## 54.Stand in Line
 
 ```js
 function nextInLine(arr, item) {
@@ -350,14 +350,14 @@ function nextInLine(arr, item) {
   return removed;
  }
 ```
-## 56.Understanding Boolean Values
+## 55.Understanding Boolean Values
 
 ```js
 function welcomeToBooleans() {
 return true;
 }
 ```
-## 57.Use Conditional Logic with If Statements
+## 56.Use Conditional Logic with If Statements
 
 ```js
 function trueOrFalse(wasThatTrue) {
@@ -368,7 +368,7 @@ function trueOrFalse(wasThatTrue) {
  }
   trueOrFalse(true);
 ```
-## 58.Comparison with the Equality Operator
+## 57.Comparison with the Equality Operator
 
 ```js
 function testEqual(val) {
@@ -379,7 +379,7 @@ function testEqual(val) {
 }
 testEqual(10);
 ```
-## 59.Comparison with the Strict Equality Operator
+## 58.Comparison with the Strict Equality Operator
 
 ```js
 function testStrict(val) {
@@ -390,7 +390,7 @@ function testStrict(val) {
 }
 testStrict(10);
 ```
-## 60.Practice comparing different values
+## 59.Practice comparing different values
 
 ```js
 function compareEquality(a, b) {
@@ -401,7 +401,7 @@ function compareEquality(a, b) {
 }
 compareEquality(10, "10");
 ```
-## 61.Comparison with the Inequality Operator
+## 60.Comparison with the Inequality Operator
 
 ```js
 function testNotEqual(val) {
@@ -412,7 +412,7 @@ function testNotEqual(val) {
 }
 testNotEqual(10);
 ```
-## 62.Comparison with the Strict Inequality Operator
+## 61.Comparison with the Strict Inequality Operator
 
 ```js
 function testStrictNotEqual(val) {
@@ -422,7 +422,7 @@ if (val!==17) {
 return "Equal";
 testStrictNotEqual(10);
 ```
-## 63.Comparison with the Greater Than Operator
+## 62.Comparison with the Greater Than Operator
 
 ```js
 function testGreaterThan(val) {
@@ -436,7 +436,7 @@ function testGreaterThan(val) {
 }
 testGreaterThan(10);
 ```
-## 64.Comparison with the Greater Than Or Equal To Operator
+## 63.Comparison with the Greater Than Or Equal To Operator
 
 ```js
 function testGreaterOrEqual(val) {
@@ -450,7 +450,7 @@ return "Less than 10";
 }
 testGreaterOrEqual(10);
 ```
-## 65.Comparison with the Less Than Operator
+## 64.Comparison with the Less Than Operator
 
 ```js
 function testLessThan(val) {
@@ -464,7 +464,7 @@ function testLessThan(val) {
 }
 testLessThan(10);
 ```
-## 66.Comparison with the Less Than Or Equal To Operator
+## 65.Comparison with the Less Than Or Equal To Operator
 
 ```js
 function testLessOrEqual(val) {
@@ -478,7 +478,7 @@ function testLessOrEqual(val) {
 }
 testLessOrEqual(10);
 ```
-## 67.Comparisons with the Logical And Operator
+## 66.Comparisons with the Logical And Operator
 
 ```js
 function testLogicalAnd(val) {
@@ -489,7 +489,7 @@ function testLogicalAnd(val) {
 }
 testLogicalAnd(10);
 ```
-## 68.Comparisons with the Logical Or Operator
+## 67.Comparisons with the Logical Or Operator
 
 ```js
 function testLogicalOr(val) {
@@ -501,7 +501,7 @@ function testLogicalOr(val) {
 }
 testLogicalOr(15);
 ```
-## 69.Introducing Else Statements
+## 68.Introducing Else Statements
 
 ```js
 function testElse(val) {
@@ -516,7 +516,7 @@ function testElse(val) {
 }
 testElse(4);
 ```
-## 70.Introducing Else If Statements
+## 69.Introducing Else If Statements
 
 ```js
 function testElseIf(val) {
@@ -532,7 +532,7 @@ function testElseIf(val) {
 testElseIf(7);
 
 ```
-## 71.Logical Order in If Else Statements
+## 70.Logical Order in If Else Statements
 
 ```js
 function orderMyLogic(val) {
@@ -547,7 +547,7 @@ function orderMyLogic(val) {
 
 orderMyLogic(7);
 ```
-## 72.Chaining If Else Statements
+## 71.Chaining If Else Statements
 
 ```js
 function testSize(num) {
@@ -569,7 +569,7 @@ function testSize(num) {
 }
 testSize(7);
 ```
-## 73.Golf Code
+## 72.Golf Code
 
 ```js
 var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
@@ -593,7 +593,7 @@ return "Hole-in-one!";
   }
 }
 ```
-## 74.Selecting from Many Options with Switch Statements
+## 73.Selecting from Many Options with Switch Statements
 
 ```js
 function caseInSwitch(val) {
@@ -615,7 +615,7 @@ function caseInSwitch(val) {
   }
     return answer; 
 ```
-## 75.Adding a Default Option in Switch Statements
+## 74.Adding a Default Option in Switch Statements
 ```js
 function switchOfStuff(val) {
   var answer = "";
@@ -631,7 +631,7 @@ function switchOfStuff(val) {
   return answer;  
 }
 ```
-## 76.
+## 75.Multiple Identical Options in Switch Statements
 ```js
 function sequentialSizes(val) {
   var answer = "";
@@ -653,7 +653,7 @@ function sequentialSizes(val) {
   }
    return answer; 
 ```
-## 77.Replacing If Else Chains with Switch
+## 76.Replacing If Else Chains with Switch
 ```js
 function chainToSwitch(val) {
   var answer = "";
@@ -680,14 +680,14 @@ function chainToSwitch(val) {
 }
 
 ```
-## 78.Returning Boolean Values from Functions
+## 77.Returning Boolean Values from Functions
 ```js
 function isLess(a, b) {
   return a<=b;
 }
 isLess(9, 15);
 ```
-## 79.
+## 78.Return Early Pattern for Functions
 ```js
 function abTest(a, b) {
 
