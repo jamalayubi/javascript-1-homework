@@ -2,7 +2,7 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[janke: truthiness](./jl-truthiness.md) | | | | |
+| :dash: __[janke: truthiness](./jl-truthiness.md) | | | | |
 | :seedling: __[javascript.info: logical operators](./jsinfo-logical-operators.md) | | | | |
 | :seedling: __[javascript.info: conditionals](./jsinfo-conditionals.md) | | | | |
 | :seedling: __[janke: test cases](./jl-test-cases.md) | | | | |
