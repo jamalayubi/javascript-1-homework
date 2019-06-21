@@ -760,6 +760,14 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 ```
 ### 80. Build JavaScript Objects
 ```js
+// Example
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+// Only change code below this line.
 var myDog = {
   "name": "myDog",
   "legs": 4,
@@ -769,6 +777,12 @@ var myDog = {
 ```
 ### 81. Accessing Object Properties with Dot Notation
 ```js
+// Setup
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
 // Only change code below this line
 
 var hatValue = testObj.hat;      // Change this line
@@ -783,13 +797,25 @@ var drinkValue = testObj["the drink"];    // Change this line
 ```
 ### 83. Accessing Object Properties with Variables
 ```js
-// Only change code below this line;
 
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
 var playerNumber= 16;       // Change this Line
 var player = testObj[playerNumber];   // Change this Line
 ```
 ### 84. pdating Object Properties
 ```js 
+
+// Setup
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
 // Only change code below this line
 
 var entreeValue = testObj["an entree"];   // Change this line
@@ -798,10 +824,49 @@ var drinkValue = testObj["the drink"];  // Change this line
 ### 85. Add New Properties to a JavaScript Object
 ```js
 
+// Example
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.name = "Happy Camper";
+
+// Setup
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line.
+
 myDog.name = "happy coder";
 ```
 ### 86. Delete Properties from a JavaScript Object
 ```js
+// Example
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.bark = "bow-wow";
+
+// Setup
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line.
 myDog.bark = "woof";
 ```
 ### 87. Using Objects for Lookups
