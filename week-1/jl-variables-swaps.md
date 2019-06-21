@@ -20,7 +20,7 @@ _=a;
 a=b;
 b=_;
 
-with 3 steps
+//with 3 lines
 ```
 1. [the second](https://goo.gl/KvayUU)
 ```js
@@ -29,7 +29,7 @@ _ = a;
 a = b;
 b = c;
 c = _;
-with 4 steps
+// with 4 lines
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
@@ -40,7 +40,7 @@ b = c;
 c = d;
 d = _;
 
- within 5 steps
+// within 5 lines
 ```
 1. [the fourth](https://goo.gl/nTA1DG)
 ```js
@@ -52,7 +52,7 @@ _ = b;
 b = c;
 c = _;
 
-can be resloved with 6 lines
+//can be resloved with 6 lines
 ```
 1. [the fifth](https://goo.gl/gDaKNi)
 ```js
