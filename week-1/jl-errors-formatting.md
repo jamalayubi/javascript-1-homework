@@ -25,7 +25,7 @@ classification:
 * syntax
 
 the fix:
-```
+```js
 let a = 1:
 ```
 your notes:
