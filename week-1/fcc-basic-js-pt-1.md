@@ -870,7 +870,35 @@ var myDog = {
 myDog.bark = "woof";
 ```
 ### 87. Using Objects for Lookups
+```js
+// Example
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete ourDog.bark;
+
+// Setup
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line.
+
+delete myDog.tails;
+```
 ### 88. Testing Objects for Properties
+```js
+
+```
 ### 89. Manipulating Complex Objects
 ### 90. Accessing Nested Objects
 ### 91. Accessing Nested Arrays
