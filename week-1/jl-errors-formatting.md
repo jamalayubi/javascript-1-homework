@@ -28,7 +28,7 @@ the fix:
 ```js
 let a = 1:
 ```
-your notes:
+your notes: 
 
 [TOP](#formatting-errors)
 
