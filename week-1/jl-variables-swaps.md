@@ -15,23 +15,42 @@ You'll be given a bunch of variables with the wrong value assigned and a tempora
 ### challenges
 1. [the first](https://goo.gl/k9jdZy)
 ```js
-// your solution here
+_ = a;
+a = b;
+b = _;
 ```
 1. [the second](https://goo.gl/KvayUU)
 ```js
-// your solution here
+_ = a;
+a = c;
+c = b;
+b = _;
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
-// your solution here
+_ = d ;
+d = c ;
+c = b;
+b = a ;
+a = _ ;
 ```
 1. [the fourth](https://goo.gl/nTA1DG)
 ```js
-// your solution here
+  _ = a;
+  a = b;
+  b = _;
+  _ = c;
+  c = d;
+  d = _;
 ```
 1. [the fifth](https://goo.gl/gDaKNi)
 ```js
-// your solution here
+_ = a ;
+a = b ;
+b = _ ;
+_ = c ;
+c = d ;
+d = _ ;
 ```
 
 ___
