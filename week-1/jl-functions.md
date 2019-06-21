@@ -14,7 +14,7 @@ some exercises to help you understand functions:
 ### Index
 * [completed example](#completed-example)
 * exercises
-    * [number 1](#1)
+    * [number 1](#1) 
     * [number 2](#2)
     * [number 3](#3)
     * [number 4](#4)
