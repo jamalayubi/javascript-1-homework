@@ -21,7 +21,7 @@ some exercises to help you understand functions:
     * [number 5](#5)
     * [number 6](#6)
     * [number 7](#7)
-    * [number 8](#8)
+    * [number 8](#8) 
 * [resources](#resources)
 
 ---
