@@ -5,7 +5,7 @@
 | :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` | :wavy_dash:| | | |
 | :dash: __[fcc debugging](./fcc-debugging.md)__ | | | | |
 | :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | :white_check_mark:| Easy| | |
-| :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | | | | |
+| :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | :white_check_mark:| uncomplicated | | |
 | :seedling: __[errors: variables](./jl-errors-variables.md)__ | | | | |
 | :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | | | | |
 | :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | | | | |
