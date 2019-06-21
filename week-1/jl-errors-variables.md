@@ -19,17 +19,24 @@ function getNine {
 }
 let result = getNine();
 ```
-error message:
+Uncaught error message: Unexpected token 
 ```
+SyntaxError
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
+function getNine () {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+let result = getNine();
 ```
-your notes:
+your notes: add parenthesis at the eunction ()
 
 [TOP](#function-errors)
 
@@ -44,17 +51,20 @@ array.length()
 ```
 error message:
 ```
+Uncaught TypeError: array.length is not a function.
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* execution phase
+* semanitc
 
 the fix:
 ```js
+let array = [];
+array.length;
 ```
 your notes:
 
-
+length is a property of arrays not a function.
 
 [TOP](#function-errors)
 
