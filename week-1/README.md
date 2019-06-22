@@ -7,8 +7,8 @@
 | :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | :white_check_mark:| | :white_check_mark: | |
 | :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ |:white_check_mark: |I corrected it by using new-line charecter.  | :white_check_mark: | for the "two lines" problem, it might make more sense to use template literals or a new-line charecter.  while you fixed the error your solution doesn't make the string print to two lines |
 | :seedling: __[errors: variables](./jl-errors-variables.md)__ | :white_check_mark:| | :white_check_mark: | |
-| :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | :white_check_mark: | I understood how variables work and how we assign value to the variables.I updated my code. | :warning: | |
-| :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | :white_check_mark: |I corrected. | :warning: | |
+| :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | :white_check_mark: | I understood how variables work and how we assign value to the variables.I updated my code. | :white_check_mark: | |
+| :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | :white_check_mark: |I corrected. | :warning: | still need some fixing |
 | :seedling: __[how functions work](./jl-functions.md)__ |  :white_check_mark:| | :white_check_mark: | |
 | :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ | :white_check_mark: | | :white_check_mark: | |
 
