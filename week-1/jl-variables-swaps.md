@@ -21,36 +21,36 @@ b = _;
 ```
 1. [the second](https://goo.gl/KvayUU)
 ```js
-_ = a;
-a = c;
-c = b;
-b = _;
+_ = a
+a = b;
+b = c;
+c = _;
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
-_ = d ;
-d = c ;
-c = b;
-b = a ;
-a = _ ;
+_ = a;
+a = b;
+b = c;
+c = d;
+d = _;
 ```
 1. [the fourth](https://goo.gl/nTA1DG)
 ```js
-  _ = a;
-  a = b;
-  b = _;
-  _ = c;
-  c = d;
-  d = _;
+_ = a;
+a = d;
+d = _;
+_ = b;
+b = c;
+c = _;
 ```
 1. [the fifth](https://goo.gl/gDaKNi)
 ```js
-_ = a ;
-a = b ;
-b = _ ;
-_ = c ;
-c = d ;
-d = _ ;
+_ = e;
+e = a;
+a = _;
+_ = d;
+d = b;
+b = _;
 ```
 
 ___
