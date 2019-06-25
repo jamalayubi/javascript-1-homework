@@ -19,14 +19,81 @@ function checkObj(checkProp) {
 
 // Test your code by modifying these values
 checkObj("gift");
-
-```
-## Testing Objects for Properties
-```js
-
 ```
 ## Manipulating Complex Objects
 ```js
 
 ```
-## 
+## Accessing Nested Objects
+```js
+
+```
+## Accessing Nested Arrays
+```js
+
+```
+## Record Collection
+```js
+
+```
+## Iterate with JavaScript While Loops
+```js
+
+```
+## Iterate with JavaScript For Loops
+``` js
+
+```
+## Iterate Odd Numbers With a For Loop
+```js
+
+```
+## Count Backwards With a For Loop
+```js
+
+```
+## Iterate Through an Array with a For Loop
+```js
+
+```
+## Nesting For Loops
+```js
+
+```
+## Iterate with JavaScript Do...While Loops
+```js
+
+```
+## Profile Lookup
+```js
+
+```
+## Generate Random Fractions with JavaScript
+```js
+
+```
+## Generate Random Whole Numbers with JavaScript
+```js
+
+```
+## Generate Random Whole Numbers within a Range
+```js
+
+```
+## Use the parseInt Function
+```js
+
+```
+## Use the parseInt Function with a Radix
+```js
+
+```
+## Use the Conditional (Ternary) Operator
+```js
+
+```
+## Use Multiple Conditional (Ternary) Operators
+```js
+
+```
+
