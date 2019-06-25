@@ -19,10 +19,11 @@ let myArray = [1, 2, 3;
 ```
 error message:
 ```
+Unexpected token ;
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
@@ -41,10 +42,11 @@ let myArray = [1, 2 3];
 ```
 error message:
 ```
+Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
@@ -67,10 +69,12 @@ let myArray = [
 ```
 error message:
 ```
+Identifier 'myArray' has already been declared
+    at <anonymous>:1:1
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
