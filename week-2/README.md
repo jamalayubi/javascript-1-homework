@@ -2,7 +2,7 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md)__ | :wavy_dash:| | | |
+| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md)__ | :white_check_mark:| most of them are so complicated that i have to google for an hrs | | |
 | :seedling: __[fcc: data structures](./fcc-data-structures.md)__ | | | | |
 | :seedling: __[errors: arrays](./jl-errors-arrays.md)__ | | | | |
 | :seedling: __[errors: objects](./jl-errors-objects.md)__ | | | | |
