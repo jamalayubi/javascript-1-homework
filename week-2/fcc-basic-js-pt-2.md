@@ -93,7 +93,7 @@ checkObj("gift");
 
 ```
 ## Use Multiple Conditional (Ternary) Operators
-```js
+```js 
 
 ```
 
