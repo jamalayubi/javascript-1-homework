@@ -1,6 +1,7 @@
 > paste [this markdown](https://raw.githubusercontent.com/janke-learning/errors/master/functions.md) into this file and fix the errors!  
 > [completed example](https://github.com/AlfiYusrina/hyf-javascript1/blob/master/week1/errors_solutions.MD) (of the old version)  
 > references: [errors & life-cycle](https://github.com/janke-learning/errors-and-life-cycle), [exercise repo](https://github.com/janke-learning/errors)
+
 # Function Errors
 
 * [missing arguments](#missing-arguments)
@@ -19,9 +20,7 @@ function getNine {
 }
 let result = getNine();
 ```
-Uncaught error message: Unexpected token 
-```
-SyntaxError
+<
 ```
 classification:
 * creation phase
@@ -29,14 +28,14 @@ classification:
 
 the fix:
 ```js
-function getNine () {
+
   let x = 6;
   let y = 3;
   return x + y;
 }
 let result = getNine();
 ```
-your notes: add parenthesis at the eunction ()
+
 
 [TOP](#function-errors)
 
@@ -51,20 +50,14 @@ array.length()
 ```
 error message:
 ```
-Uncaught TypeError: array.length is not a function.
-```
-classification:
-* execution phase
-* semanitc
+
 
 the fix:
 ```js
 let array = [];
 array.length;
 ```
-your notes:
 
-length is a property of arrays not a function.
 
 [TOP](#function-errors)
 
