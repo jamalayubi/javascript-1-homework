@@ -2,15 +2,15 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` | :white_check_mark:| I need more time for that still reading and practicing! | | |
+| :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` | :white_check_mark:| I need more time for that still reading and practicing! | :white_check_mark: | |
 | :dash: __[fcc debugging](./fcc-debugging.md)__ | | | | |
-| :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | :white_check_mark:| Easy| | |
-| :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | :white_check_mark:| Uncomplicated | | |
-| :seedling: __[errors: variables](./jl-errors-variables.md)__ |:white_check_mark: | It was oke | | |
-| :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ |  :white_check_mark:| Done| | |
+| :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | :white_check_mark:| Easy| :white_check_mark: | |
+| :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | :white_check_mark:| Uncomplicated | :white_check_mark: :shipit: | try ```\n``` instead of ```\```.  you've fixed the error but not made a new line |
+| :seedling: __[errors: variables](./jl-errors-variables.md)__ |:white_check_mark: | It was oke | :white_check_mark: | |
+| :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ |  :white_check_mark:| Done| :white_check_mark: | |
 | :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | | | | |
-| :seedling: __[how functions work](./jl-functions.md)__ |:white_check_mark:  |thansk for coveing this exercise on sunday that helps  | | |
-| :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ | | | | |
+
+
 
 ---
 
