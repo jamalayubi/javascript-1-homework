@@ -2,7 +2,6 @@
 > [completed example](https://github.com/AlfiYusrina/hyf-javascript1/blob/master/week1/errors_solutions.MD)  (of the old version)  
 > references: [errors & life-cycle](https://github.com/janke-learning/errors-and-life-cycle), [exercise repo](https://github.com/janke-learning/errors)
 
-# Primitive Type Errors
 
 * [improper multi-line string](#improper-multi-line-string)
 * [improper nested quotes 1](#improper-nested-quotes-1)
@@ -27,9 +26,7 @@ classification:
 
 the fix:
 ```js
-let a = 'this is\n' + 'two lines'
-```
-your notes: :thumbsup:
+
 
 [TOP](#primitive-type-errors)
 
@@ -53,7 +50,7 @@ the fix:
 ```js
 let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
 ```
-your notes: :thumbsup:
+
 
 [TOP](#errors)
 
@@ -67,16 +64,14 @@ let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
 ```
 error message:
 ```
-Unexpected string
-```
-classification:
+
 * syntax
 
 the fix:
 ```js
 let nested_messages = 'remind yourself '+'i can do this!'+' at least once a day';
 ```
-your notes: :thumbsup:
+
 
 [TOP](#primitive-type-errors)
 

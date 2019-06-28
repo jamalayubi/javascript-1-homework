@@ -1,4 +1,4 @@
-> paste [this markdown of exercises](https://raw.githubusercontent.com/janke-learning/variable-exercises/master/swaps.md) into this file and complete the exercises!   
+
 > references: [javascript.info variables](https://javascript.info/variables), [variables and hoisting](https://github.com/janke-learning/variables-and-hoisting) 
 
 # Swaps 
@@ -15,42 +15,20 @@ You'll be given a bunch of variables with the wrong value assigned and a tempora
 ### challenges
 1. [the first](https://goo.gl/k9jdZy)
 ```js
-_ = a;
-a = b;
-b = _;
-```
-1. [the second](https://goo.gl/KvayUU)
-```js
-_ = a
-a = b;
-b = c;
-c = _;
-```
-1. [the third](https://goo.gl/WXXtV7)
-```js
+
 _ = a;
 a = b;
 b = c;
 c = d;
 d = _;
-```
-1. [the fourth](https://goo.gl/nTA1DG)
-```js
+
 _ = a;
 a = d;
 d = _;
 _ = b;
 b = c;
 c = _;
-```
-1. [the fifth](https://goo.gl/gDaKNi)
-```js
-_ = e;
-e = a;
-a = _;
-_ = d;
-d = b;
-b = _;
+
 ```
 
 ___
