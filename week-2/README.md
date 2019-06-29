@@ -4,8 +4,8 @@
 | --- | --- | --- | --- | --- |
 | :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md)__ | :white_check_mark:| most of them are so complicated that i have to google for an hrs | | |
 | :seedling: __[fcc: data structures](./fcc-data-structures.md)__ |:white_check_mark:| Done, but still i have to work on it| | |
-| :seedling: __[errors: arrays](./jl-errors-arrays.md)__ |  :wavy_dash:| | | |
-| :seedling: __[errors: objects](./jl-errors-objects.md)__ |  :wavy_dash:| | | |
+| :seedling: __[errors: arrays](./jl-errors-arrays.md)__ |  :white_check_mark:| | | |
+| :seedling: __[errors: objects](./jl-errors-objects.md)__ |  :white_check_mark:| | | |
 | :dash: __[javascript.info: loops](./jsinfo-loops.md)__ | | | | |
 | :dash: __[janke: reference types](./jl-reference-types.md)__ | | | | |
 | :fire: __[janke: ref-type arguments](./jl-functions-ref-type-args.md)__ | | | | |
