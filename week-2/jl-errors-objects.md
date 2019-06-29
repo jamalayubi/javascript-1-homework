@@ -1,7 +1,6 @@
 > paste [this markdown](https://raw.githubusercontent.com/janke-learning/error-exercises/master/objects.md) into this file and fix the errors!    
 > [completed example](https://github.com/AlfiYusrina/hyf-javascript1/blob/master/week1/errors_solutions.MD)  (of the old version)  
 > references: [errors & life-cycle](https://github.com/janke-learning/errors-and-life-cycle), [exercise repo](https://github.com/janke-learning/errors)
-
 # Object Errors
 
 * [too-far object access](#too-far-object-access)
@@ -17,14 +16,17 @@ let a = {b:3};
 let b = a.b.3
 ```
 error message:
-```
+```js
+ SyntaxError: Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+let a = {b:3};
+let b = a.b;
 ```
 your notes:
 
@@ -39,14 +41,17 @@ let x = {b:'e'};
 let y = b.e;
 ```
 error message:
-```
+```js
+ReferenceError: b is not defined
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* sintax
 
 the fix:
 ```js
+let x = {b:'e'};
+let y = x.b;
 ```
 your notes:
 
