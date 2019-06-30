@@ -2,16 +2,19 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[janke: truthiness](./jl-truthiness.md)__ | | | | |
-| :seedling: __[javascript.info: logical operators](./jsinfo-logical-operators.md)__ | | | | |
-| :seedling: __[javascript.info: conditionals](./jsinfo-conditionals.md)__ | | | | |
-| :seedling: __[janke: test cases](./jl-test-cases.md)__ | | | | |
-| :fire: __[janke: replicate ```==```](./jl-replicate-loose-equality.md)__ | | | | |
-| :dash: __[janke: operator precedence](./jl-operator-precedence.md)__ | | | | |
-| :fire: __[janke: expanding expressions](./jl-expanding-expressions.md)__ | | | | |
-| :dash: __[FCC: basic algorithms](./fcc-algorithms-1.md)__ | | | | |
-| :dash: __[janke: functions as arguments](./jl-functions-as-arguments.md)__ | | | | |
-| :fire: __[janke: callstack](./jl-callstack.md)__ | | | | |
+| :seedling: finish FCC basics | | | | |
+| :seedling: finish FCC data structures | | | | |
+| :dash: [javascript.info: logical operators](./jsinfo-logical-operators.md) | | | | |
+| :dash: [javascript.info: conditionals](./jsinfo-conditionals.md) | | | | |
+| :fire: [janke: test cases](./jl-test-cases.md) | | | | |
+| :fire: [janke: operator precedence](./jl-operator-precedence.md) | | | | |
+| :fire: [FCC: basic algorithms](./fcc-algorithms-1.md) | | | | |
+| :fire: [janke: expanding expressions](./jl-expanding-expressions.md) | | | | |
+| :fire: [janke: replicate ```==```](./jl-replicate-loose-equality.md) | | | | |
+| :fire: [janke: ref-type arguments](./jl-reference-type-arguments.md) | | | | |
+| :fire: [janke: functions as arguments](./jl-functions-as-arguments.md) | | | | |
+| :fire: [janke: callstack](./jl-callstack.md) | | | | |
+
 
 
 
