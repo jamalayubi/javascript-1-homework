@@ -8,7 +8,7 @@
 
 ---
 
-## too-far object access
+## too-far object access 
 
 broken code:
 ```js
