@@ -1,6 +1,7 @@
 > paste [this markdown](https://raw.githubusercontent.com/janke-learning/error-exercises/master/arrays.md) into this file and fix the errors!    
 > [completed example](https://github.com/AlfiYusrina/hyf-javascript1/blob/master/week1/errors_solutions.MD)  (of the old version)  
 > references: [errors & life-cycle](https://github.com/janke-learning/errors-and-life-cycle), [exercise repo](https://github.com/janke-learning/errors)
+
 # Array Errors
 
 
@@ -17,18 +18,18 @@ broken code:
 let myArray = [1, 2, 3;
 ```
 error message:
-```js
-Uncaught SyntaxError: Unexpected token ;
+```
+SyntaxError: Unexpected token ;
 ```
 classification:
-* creation phase
-* syntax
+* creation phase 
+* syntax 
 
 the fix:
 ```js
 let myArray = [1, 2, 3];
 ```
-your notes:
+your notes: Array declaration must begined with '\['  and ended with '\]'.
 
 [TOP](#array-errors)
 
@@ -41,18 +42,18 @@ broken code:
 let myArray = [1, 2 3];
 ```
 error message:
-```js
-Uncaught SyntaxError: Unexpected number
+```
+SyntaxError: Unexpected number
 ```
 classification:
-* creation phase 
-* syntax 
+* creation phase  
+* syntax  
 
 the fix:
 ```js
-let myArray = [1, 2 ,3];
+let myArray = [1, 2 , 3];
 ```
-your notes:
+your notes: The elements in array declaration must be separated with ','.
 
 [TOP](#array-errors)
 
@@ -69,12 +70,11 @@ let myArray = [
               ];
 ```
 error message:
-```js
-TypeError: Cannot read property '9' of undefined
+```
 ```
 classification:
-* creation 
-* syntax
+* creation phase 
+* syntax  
 
 the fix:
 ```js
@@ -83,8 +83,9 @@ let myArray = [
                 [4, 5, 6],
                 [7, 8, 9]
               ];
+
 ```
-your notes:
+your notes: The nested elements in array declaration must be separated with ','.
 
 [TOP](#array-errors)
 
