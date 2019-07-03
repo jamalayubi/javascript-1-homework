@@ -8,7 +8,7 @@
 | :dash: __[janke: loop refactors](./jl-loop-refactors.md) | | | | |
 | :seedling: __[fcc: data structures](./fcc-data-structures.md) | :white_check_mark: | | | |
 | :seedling: __[janke: errors const](./jl-errors-const.md) | | | | |
-| :seedling: __[janke: errors arrays](./jl-errors-arrays.md) | | | | |
+| :seedling: __[janke: errors arrays](./jl-errors-arrays.md) | :white_check_mark: | | | |
 | :seedling: __[janke: errors objects](./jl-errors-objects.md) | | | | |
 | :seedling: __[javascript.info: objects](./jsinfo-objects.md) | | | | |
 | :dash: __[janke: reference types](./jl-reference-types.md) | | | | |
