@@ -19,15 +19,17 @@ const = 5;
 ```
 error message:
 ```js
+Unexpected token =
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+const five = 5;
 ```
-your notes:
+your notes: The constant must be declared.
 
 [TOP](#variable-errors)
 
@@ -43,20 +45,21 @@ a = 0;
 ```
 error message:
 ```
+TypeError: Assignment to constant variable.
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* execution phase 
+* semanitc 
 
 the fix:
 ```js
+const a = 9;
 ```
-your notes:
+your notes: The constants can't change of value.
 
 [TOP](#variable-errors)
 
 ---
-
 
 ## unassigned const declaration
 
@@ -67,15 +70,17 @@ a = 0;
 ```
 error message:
 ```
+SyntaxError: Missing initializer in const declaration.
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+const a = 0 ;
 ```
-your notes:
+your notes: const   The constants  must be assigned a value when they are declared.
 
 [TOP](#variable-errors)
 
