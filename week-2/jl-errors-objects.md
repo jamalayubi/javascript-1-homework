@@ -8,7 +8,7 @@
 
 ---
 
-## too-far object access 
+## too-far object access
 
 broken code:
 ```js
@@ -16,8 +16,8 @@ let a = {b:3};
 let b = a.b.3
 ```
 error message:
-```js
- SyntaxError: Unexpected number
+```
+SyntaxError: Unexpected number
 ```
 classification:
 * creation phase 
@@ -25,10 +25,9 @@ classification:
 
 the fix:
 ```js
-let a = {b:3};
-let b = a.b;
+SyntaxError: Unexpected number
 ```
-your notes:
+your notes: The number 3 is the value of the property b which belong to the object a. 
 
 [TOP](#object-errors)
 
@@ -41,19 +40,19 @@ let x = {b:'e'};
 let y = b.e;
 ```
 error message:
-```js
-ReferenceError: b is not defined
+```
+ReferenceError: b is not defined.
 ```
 classification:
-* creation phase
-* sintax
+* execution phase 
+* semanitc 
 
 the fix:
 ```js
 let x = {b:'e'};
 let y = x.b;
 ```
-your notes:
+your notes: The way to access to the property b in object x it was incorrect.
 
 [TOP](#object-errors)
 
