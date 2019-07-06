@@ -12,4 +12,16 @@ function convertToF(celsius) {
 convertToF(30);
 ```
 
-###
+### Reverse a String
+```js
+function reverseString(str) {
+  var aux="";
+  for (let i=0; i<str.length; i++){
+   aux+=str[str.length-1-i];
+  }
+  return aux
+}
+
+reverseString("hello");
+
+```
